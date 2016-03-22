@@ -173,7 +173,7 @@ mixins: [ History ],
     hintText="Email"/><br/>
     <label style={{'minWidth':80,'display':'inline-block'}}>Password</label>
     <TextField type="password" required="true" ref="password"
-    hintText="UserName"/><br/>
+    hintText="Password"/><br/>
     <FlatButton label="Submit" type="submit" primary={true}/>
     <Link style={{'textDecoration':'none','color':'rgb(0, 188, 212)'}} to="/register">
     <FlatButton label="Register" secondary={true} />
